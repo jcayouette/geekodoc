@@ -3,10 +3,10 @@
 
 ## NovDoc
 
-This is the Novdoc and Geekodoc schemas. Although Novdoc is technically not
+These are the Novdoc and Geekodoc schemas. Although Novdoc is technically not
 based on DocBook the tags and structure are.
 
-In general, XML instances of Novdoc should be compatible to DocBook.
+In general, XML instances of Novdoc should be compatible with DocBook.
 
 
 ## GeekoDoc
@@ -15,9 +15,9 @@ GeekoDoc is a RELAX NG schema and a subset of DocBook 5. Currently, it can be
 used in two variants:
 
 1. As the file `geekodoc5.rn{c,g}` which is based on `docbookxi.rn{c,g}`. In
-   other words, the GeekoDoc schema cannot life without the DocBook schema.
-2. As a single`geekodoc5-flat.rn{c,g}`. This file is independant from the
-   DocBook schema and can be used without having DocBook 5 installed on
+   other words, the GeekoDoc schema cannot be used without the DocBook schema.
+2. As a single`geekodoc5-flat.rn{c,g}`. This file is completly independant from the
+   DocBook schema and may be used without requiring DocBook 5 installed on
    your system.
 
 Both variants contain the same structure, elements, and attributes. They
